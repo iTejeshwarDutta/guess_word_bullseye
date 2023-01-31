@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Guess a word</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-<h1>Guess the Word</h1>
-<div class="content">
-     <input type="text" class="typing-input" maxlength="1">
-    <div class="input">
+        <div class="logo">
+            <img src="//mba.hitbullseye.com/new-code/images/hitbullseye-logo.png" alt="logo">
+        </div>
+      <h1 class="title">Guess the Word</h1>
+      <div class="content">
+        <div class="inputs">
+          <input type="text" class="typing-input" maxlength="1" />
+        </div>
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining Guesses: <span></span></p>
+          <p class="wrong-letter">Wrong Letters: <span></span></p>
+        </div>
 
-    
-     </div>
-     <div class="details"></div>
-     <p class="hint">Hint: <span></span></p>
-     <p class="guess-left">Remaining Guesses: <span>10</span></p>
-     <p class="wrong-letter">Wrong Letters: <span>a,b,c,d</span></p>
-</div>
-<div>
-<button class="reset-btn">Reset Game</button>
-</div> 
-   </div>
-   <script src="js/word.js"></script>
-   <script src="js/script.js"></script>
-</body>
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
+    <script src="js/word.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
